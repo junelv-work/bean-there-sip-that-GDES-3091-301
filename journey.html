@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey | Bean There Sip That</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="journey-styles.css"> <!-- Journey-specific styles -->
+</head>
+
+<body>
+    <!-- TOP BLACK NAV BAR (SAME AS OTHER PAGES) -->
+    <header class="top-nav">
+        <div class="nav-container">
+            <!-- My logo on the left -->
+            <div class="logo-section">
+                <img src="assets/logo.png" alt="Bean There Sip That Logo" class="logo-img" style="height: 90px;">
+                <h1 class="site-title">Bean There Sip That</h1>
+            </div>
+
+            <!-- My nav links on right -->
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="farm.html" class="nav-link">Farm</a></li>
+                    <li><a href="roastery.html" class="nav-link">Roastery</a></li>
+                    <li><a href="cafe.html" class="nav-link">Cafe</a></li>
+                    <li><a href="journey.html" class="nav-link active">Journey</a></li>
+                </ul>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- JOURNEY SECTION -->
+    <section class="journey-hero">
+        <div class="journey-hero-image">
+            <div class="journey-overlay"></div>
+        </div>
+        <div class="journey-hero-content">
+            <h2 class="journey-title">The Journey</h2>
+            <p class="journey-subtitle">Addressing origins & impact related to the production of coffee beans</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="journey-container">
+        <!-- Crisis Section -->
+        <section class="journey-section crisis-section">
+            <div class="section-header">
+                <h3>Crisis & Discovery</h3>
+                <p>The environmental challenges facing coffee production</p>
+            </div>
+
+            <div class="crisis-content">
+                <div class="crisis-card">
+                    <div class="crisis-icon">
+                        <i class="fas fa-thermometer-full"></i>
+                    </div>
+                    <h4>Climate Change Threat</h4>
+                    <p>
+                        Rising temperatures and unpredictable weather patterns are reducing suitable land
+                        for coffee cultivation in some regions. Arabica coffee is particularly
+                        vulnerable, requiring specific temperature ranges to thrive.
+                    </p>
+                    <div class="crisis-stat">
+                        <span class="stat-number">60%</span>
+                        <span class="stat-label">of wild coffee species face extinction</span>
+                    </div>
+                </div>
+
+                <div class="crisis-card">
+                    <div class="crisis-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h4>Water Usage</h4>
+                    <p>
+                        Coffee production is water-intensive. From irrigation to processing, it takes
+                        approximately 140 liters of water to produce one cup of coffee. Sustainable
+                        water management practices are becoming essential.
+                    </p>
+                    <div class="crisis-stat">
+                        <span class="stat-number">140L</span>
+                        <span class="stat-label">water per cup of coffee</span>
+                    </div>
+                </div>
+
+                <div class="crisis-card">
+                    <div class="crisis-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h4>Deforestation</h4>
+                    <p>
+                        Traditional sun-grown coffee often replaces forest ecosystems, reducing
+                        biodiversity and increasing soil erosion. Shade-grown coffee preserves
+                        tree canopy and provides habitat for wildlife.
+                    </p>
+                    <div class="crisis-stat">
+                        <span class="stat-number">2.5M</span>
+                        <span class="stat-label">hectares of forest lost for coffee farms</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Environmental Impact Section -->
+        <section class="journey-section impact-section">
+            <div class="section-header">
+                <h3>Environmental Impact</h3>
+                <p>The full journey from farm to cup</p>
+            </div>
+
+            <div class="impact-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h5>Cultivation</h5>
+                        <p>Pesticide use, water consumption, land conversion</p>
+                        <ul class="impact-list">
+                            <li><i class="fas fa-check-circle"></i> Shade-grown reduces chemical use</li>
+                            <li><i class="fas fa-check-circle"></i> Organic farming preserves soil</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h5>Processing</h5>
+                        <p>Water pollution from coffee pulp wastewater</p>
+                        <ul class="impact-list">
+                            <li><i class="fas fa-check-circle"></i> Water recycling systems</li>
+                            <li><i class="fas fa-check-circle"></i> Dry processing reduces waste</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h5>Transportation</h5>
+                        <p>Carbon emissions from global shipping</p>
+                        <ul class="impact-list">
+                            <li><i class="fas fa-check-circle"></i> Sea freight over air freight</li>
+                            <li><i class="fas fa-check-circle"></i> Local roasting reduces miles</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h5>Consumption</h5>
+                        <p>Waste from single-use cups and packaging</p>
+                        <ul class="impact-list">
+                            <li><i class="fas fa-check-circle"></i> Reusable cups & containers</li>
+                            <li><i class="fas fa-check-circle"></i> Compostable packaging</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solutions Section -->
+        <section class="journey-section solutions-section">
+            <div class="section-header">
+                <h3>Towards Sustainable Coffee</h3>
+                <p>How we can make a difference</p>
+            </div>
+
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h4>Choose Certified</h4>
+                    <p>Look for certifications like Fair Trade, Rainforest Alliance, Organic, and Bird Friendly.</p>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h4>Support Local Roasters</h4>
+                    <p>Local roasting reduces transportation emissions and supports community businesses.</p>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <h4>Reduce Waste</h4>
+                    <p>Use reusable cups, avoid single-serving pods, and compost coffee grounds.</p>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Direct Trade</h4>
+                    <p>Support roasters who buy directly from farmers, ensuring fair prices and transparency.</p>
+                </div>
+            </div>
+
+            <div class="call-to-action">
+                <h4>Every Cup Makes a Difference</h4>
+                <p>Your coffee choices impact farmers, ecosystems, and climate. Choose consciously.</p>
+                <a href="cafe.html" class="cta-button">
+                    <span>Discover Local Coffee</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- SIMPLE FOOTER -->
+    <footer class="journey-footer">
+        <p>Bean There Sip That © 2024 | Coffee with consciousness</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="journey-script.js"></script>
+</body>
+
+</html>

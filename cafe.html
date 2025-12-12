@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe | Bean There Sip That</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cafe-styles.css"> <!-- Cafe-specific styles -->
+</head>
+<body>
+    <!-- TOP BLACK NAV BAR (SAME AS OTHER PAGES) -->
+    <header class="top-nav">
+        <div class="nav-container">
+            <!-- My logo on left -->
+            <div class="logo-section">
+                <img src="assets/logo.png" alt="Bean There Sip That Logo" class="logo-img" style="height: 90px;">
+                <h1 class="site-title">Bean There Sip That</h1>
+            </div>
+            
+            <!-- Navigation links on right -->
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="farm.html" class="nav-link">Farm</a></li>
+                    <li><a href="roastery.html" class="nav-link">Roastery</a></li>
+                    <li><a href="cafe.html" class="nav-link active">Cafe</a></li>
+                    <li><a href="journey.html" class="nav-link">Journey</a></li>
+                </ul>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CAFE SECTION -->
+    <section class="cafe-hero">
+        <div class="cafe-hero-image">
+            <div class="cafe-overlay"></div>
+        </div>
+        <div class="cafe-hero-content">
+            <h2 class="cafe-title">It Starts With a Cup of Coffee</h2>
+            <p class="cafe-subtitle">Explore brewing methods and Toronto's vibrant cafe culture</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="cafe-container">
+        <!-- Brewing Methods Section -->
+        <section class="cafe-section brewing-section">
+            <div class="section-header">
+                <h3>Brewing Methods</h3>
+                <p>Different techniques, unique experiences</p>
+            </div>
+            
+            <div class="brewing-methods-grid">
+                <!-- French Press -->
+                <div class="brewing-card">
+                    <div class="brewing-image">
+                        <img src="assets/frenchpress.jpg" alt="French Press coffee brewing">
+                        <div class="brewing-overlay">
+                            <span class="brew-time">4-5 min</span>
+                        </div>
+                    </div>
+                    <div class="brewing-content">
+                        <h4>French Press</h4>
+                        <div class="brew-meta">
+                            <span class="brew-difficulty">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                Easy
+                            </span>
+                            <span class="brew-type">
+                                <i class="fas fa-filter"></i> Immersion
+                            </span>
+                        </div>
+                        <p class="brew-description">
+                            A full-bodied, rich brew where coffee grounds steep directly in hot water. 
+                            The metal filter allows oils and fine particles to pass through, creating 
+                            a robust flavour profile.
+                        </p>
+                        <div class="brew-details">
+                            <div class="detail">
+                                <i class="fas fa-thermometer-half"></i>
+                                <span>Water Temp: 200°F</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>Steep Time: 4 min</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-coffee"></i>
+                                <span>Grind: Coarse</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pour Over -->
+                <div class="brewing-card">
+                    <div class="brewing-image">
+                        <img src="assets/pourover.jpg" alt="Pour Over coffee brewing">
+                        <div class="brewing-overlay">
+                            <span class="brew-time">2-3 min</span>
+                        </div>
+                    </div>
+                    <div class="brewing-content">
+                        <h4>Pour Over</h4>
+                        <div class="brew-meta">
+                            <span class="brew-difficulty">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                Moderate
+                            </span>
+                            <span class="brew-type">
+                                <i class="fas fa-tint"></i> Drip
+                            </span>
+                        </div>
+                        <p class="brew-description">
+                            Hot water is poured evenly over coffee grounds in a filter. This method 
+                            allows for precise control over brewing variables, resulting in a clean, 
+                            bright, and nuanced cup.
+                        </p>
+                        <div class="brew-details">
+                            <div class="detail">
+                                <i class="fas fa-thermometer-half"></i>
+                                <span>Water Temp: 205°F</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>Brew Time: 3 min</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-coffee"></i>
+                                <span>Grind: Medium</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Espresso -->
+                <div class="brewing-card">
+                    <div class="brewing-image">
+                        <img src="assets/espresso.jpg" alt="Espresso machine">
+                        <div class="brewing-overlay">
+                            <span class="brew-time">25-30 sec</span>
+                        </div>
+                    </div>
+                    <div class="brewing-content">
+                        <h4>Espresso</h4>
+                        <div class="brew-meta">
+                            <span class="brew-difficulty">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                Advanced
+                            </span>
+                            <span class="brew-type">
+                                <i class="fas fa-tachometer-alt"></i> Pressure
+                            </span>
+                        </div>
+                        <p class="brew-description">
+                            Highly pressurized hot water is forced through finely-ground coffee, 
+                            producing a concentrated shot with a rich crema. The foundation for 
+                            lattes, cappuccinos, and more.
+                        </p>
+                        <div class="brew-details">
+                            <div class="detail">
+                                <i class="fas fa-thermometer-half"></i>
+                                <span>Water Temp: 200°F</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-tachometer-alt"></i>
+                                <span>Pressure: 9 bar</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-coffee"></i>
+                                <span>Grind: Fine</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cold Brew -->
+                <div class="brewing-card">
+                    <div class="brewing-image">
+                        <img src="assets/coldbrew.jpg" alt="Cold brew coffee">
+                        <div class="brewing-overlay">
+                            <span class="brew-time">12-24 hrs</span>
+                        </div>
+                    </div>
+                    <div class="brewing-content">
+                        <h4>Cold Brew</h4>
+                        <div class="brew-meta">
+                            <span class="brew-difficulty">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                Very Easy
+                            </span>
+                            <span class="brew-type">
+                                <i class="fas fa-snowflake"></i> Cold Immersion
+                            </span>
+                        </div>
+                        <p class="brew-description">
+                            Coffee grounds steep in cold water for 12-24 hours, producing a smooth, 
+                            low-acidity concentrate. Perfect for iced coffee and refreshing summer 
+                            drinks.
+                        </p>
+                        <div class="brew-details">
+                            <div class="detail">
+                                <i class="fas fa-thermometer-half"></i>
+                                <span>Water Temp: Cold</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>Steep Time: 18 hrs</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-coffee"></i>
+                                <span>Grind: Coarse</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AeroPress -->
+                <div class="brewing-card">
+                    <div class="brewing-image">
+                        <img src="assets/aeropress.jpg" alt="AeroPress coffee maker">
+                        <div class="brewing-overlay">
+                            <span class="brew-time">1-2 min</span>
+                        </div>
+                    </div>
+                    <div class="brewing-content">
+                        <h4>AeroPress</h4>
+                        <div class="brew-meta">
+                            <span class="brew-difficulty">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                Easy-Moderate
+                            </span>
+                            <span class="brew-type">
+                                <i class="fas fa-syringe"></i> Pressure + Immersion
+                            </span>
+                        </div>
+                        <p class="brew-description">
+                            A versatile brewing device that uses air pressure to push hot water 
+                            through coffee grounds. Creates a clean, smooth cup similar to espresso 
+                            but with less bitterness.
+                        </p>
+                        <div class="brew-details">
+                            <div class="detail">
+                                <i class="fas fa-thermometer-half"></i>
+                                <span>Water Temp: 175-205°F</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>Total Time: 1.5 min</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-coffee"></i>
+                                <span>Grind: Fine-Medium</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Moka Pot -->
+                <div class="brewing-card">
+                    <div class="brewing-image">
+                        <img src="assets/mokapot.jpg" alt="Moka pot stovetop espresso">
+                        <div class="brewing-overlay">
+                            <span class="brew-time">5-10 min</span>
+                        </div>
+                    </div>
+                    <div class="brewing-content">
+                        <h4>Moka Pot</h4>
+                        <div class="brew-meta">
+                            <span class="brew-difficulty">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                Easy
+                            </span>
+                            <span class="brew-type">
+                                <i class="fas fa-fire"></i> Stovetop Pressure
+                            </span>
+                        </div>
+                        <p class="brew-description">
+                            A stovetop brewer that uses steam pressure to push hot water through 
+                            coffee grounds. Produces a strong, concentrated coffee similar to 
+                            espresso but with more body.
+                        </p>
+                        <div class="brew-details">
+                            <div class="detail">
+                                <i class="fas fa-thermometer-half"></i>
+                                <span>Heat Source: Stove</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>Brew Time: 7 min</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-coffee"></i>
+                                <span>Grind: Medium-Fine</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture & Community Section -->
+        <section class="cafe-section culture-section">
+            <div class="section-header">
+                <h3>Culture & Community</h3>
+                <p>Toronto's vibrant coffee scene</p>
+            </div>
+            
+            <div class="culture-content">
+                <div class="culture-text">
+                    <h4>The Third Place</h4>
+                    <p>
+                        Cafes serve as "third places". Not home, not work, but community hubs where 
+                        people connect, create, and find inspiration. Toronto's diverse neighborhoods 
+                        each offer unique cafe experiences that reflect their local character.
+                    </p>
+                    <p>
+                        From cozy study spots in the Annex to trendy roasteries in the West End, 
+                        each cafe contributes to the city's rich tapestry of coffee culture.
+                    </p>
+                    
+                    <div class="culture-stats">
+                        <div class="culture-stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Independent Cafes</span>
+                        </div>
+                        <div class="culture-stat">
+                            <span class="stat-number">158</span>
+                            <span class="stat-label">Neighbourhoods</span>
+                        </div>
+                        <div class="culture-stat">
+                            <span class="stat-number">Countless</span>
+                            <span class="stat-label">Local Roasteries</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="culture-image">
+                    <img src="assets/torontocafe.gif" alt="Toronto cafe interior">
+                </div>
+            </div>
+        </section>
+
+        <!-- Toronto Local Cafes -->
+        <section class="cafe-section local-cafes-section">
+            <div class="section-header">
+                <h3>Toronto Local Cafes</h3>
+                <p>Discover must-visit spots across the city</p>
+            </div>
+            
+            <div class="cafes-grid">
+                <div class="cafe-card">
+                    <div class="cafe-image">
+                        <img src="assets/pilotcoffee.jpg" alt="Pilot Coffee Roasters">
+                    </div>
+                    <div class="cafe-info">
+                        <h4>Pilot Coffee Roasters</h4>
+                        <div class="cafe-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Multiple Locations</span>
+                        </div>
+                        <p class="cafe-description">
+                            Specialty roaster with minimalist cafes focusing on single origin 
+                            coffees and precise brewing.
+                        </p>
+                        <div class="cafe-features">
+                            <span class="feature">✓ Local Roaster</span>
+                            <span class="feature">✓ Specialty Brews</span>
+                            <span class="feature">✓ Cozy Workspace</span>
+                        </div>
+                        <a href="#" class="cafe-link">Visit Website <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="cafe-card">
+                    <div class="cafe-image">
+                        <img src="assets/samjames.jpg" alt="Sam James Coffee Bar">
+                    </div>
+                    <div class="cafe-info">
+                        <h4>Sam James Coffee Bar</h4>
+                        <div class="cafe-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Little Italy, Harbord</span>
+                        </div>
+                        <p class="cafe-description">
+                            Modern, serious coffee spots known for exceptional espresso and 
+                            consistent quality.
+                        </p>
+                        <div class="cafe-features">
+                            <span class="feature">✓ Award-winning</span>
+                            <span class="feature">✓ Minimalist</span>
+                            <span class="feature">✓ Takeout Focus</span>
+                        </div>
+                        <a href="#" class="cafe-link">Visit Website <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="cafe-card">
+                    <div class="cafe-image">
+                        <img src="assets/balzac.jpg" alt="Balzac's Coffee Roasters">
+                    </div>
+                    <div class="cafe-info">
+                        <h4>Balzac's Coffee Roasters</h4>
+                        <div class="cafe-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Distillery District</span>
+                        </div>
+                        <p class="cafe-description">
+                            French-inspired cafe in historic Distillery District, offering 
+                            traditional European coffee experience.
+                        </p>
+                        <div class="cafe-features">
+                            <span class="feature">✓ Historic Location</span>
+                            <span class="feature">✓ European Style</span>
+                            <span class="feature">✓ Pastry Selection</span>
+                        </div>
+                        <a href="#" class="cafe-link">Visit Website <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cafe-map-note">
+                <i class="fas fa-map-marked-alt"></i>
+                <p>Explore more local cafes on our <a href="journey.html">Journey</a> page with interactive map!</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="cafe-script.js"></script>
+</body>
+</html>

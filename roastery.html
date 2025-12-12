@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roastery | Bean There Sip That</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="roastery-styles.css"> <!-- Roastery-specific styles -->
+</head>
+<body>
+    <!-- TOP BLACK NAV BAR (SAME AS OTHER PAGES) -->
+    <header class="top-nav">
+        <div class="nav-container">
+            <!-- Logo on left -->
+            <div class="logo-section">
+                <img src="assets/logo.png" alt="Bean There Sip That Logo" class="logo-img" style="height: 90px;">
+                <h1 class="site-title">Bean There Sip That</h1>
+            </div>
+            
+            <!-- Navigation links on right -->
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="farm.html" class="nav-link">Farm</a></li>
+                    <li><a href="roastery.html" class="nav-link active">Roastery</a></li>
+                    <li><a href="cafe.html" class="nav-link">Cafe</a></li>
+                    <li><a href="journey.html" class="nav-link">Journey</a></li>
+                </ul>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ROASTERY HERO SECTION -->
+    <section class="roastery-hero">
+        <div class="roastery-hero-image">
+            <div class="roastery-overlay"></div>
+        </div>
+        <div class="roastery-hero-content">
+            <h2 class="roastery-title">The Art & Science of Roasting</h2>
+            <p class="roastery-subtitle">Where green beans transform into aromatic masterpieces</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="roastery-container">
+        <!-- Introduction Section -->
+        <section class="roastery-section intro-section">
+            <div class="section-intro">
+                <h3>The Alchemy of Heat & Time</h3>
+                <p class="intro-text">
+                    Coffee roasting uses high temperatures to develop the flavours and aromas locked inside green coffee beans. Through careful heat application, chemical reactions create the spectrum of roast levels from light to dark, each with distinct flavour profiles.
+                </p>
+                <div class="roasting-stats">
+                    <div class="stat">
+                        <span class="stat-number">180°C - 250°C</span>
+                        <span class="stat-label">Roasting Temperature</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">7 - 20 min</span>
+                        <span class="stat-label">Roasting Time</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">14-23%</span>
+                        <span class="stat-label">Weight Loss</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Roasting Process Visualization -->
+            <div class="process-visual">
+                <div class="process-image">
+                    <img src="assets/roastingprocess.jpg" alt="Coffee beans at different roast stages">
+                </div>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Drying Phase</h4>
+                            <p>Green beans lose moisture at 100-150°C</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>First Crack</h4>
+                            <p>Around 196°C, beans expand and crack</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Development</h4>
+                            <p>Flavours develop through Maillard reactions</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Cooling</h4>
+                            <p>Rapid cooling stops the roasting process</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roast Levels Section -->
+        <section class="roastery-section roast-levels-section">
+            <div class="section-header">
+                <h3>Roast Levels</h3>
+                <p>From light and acidic to dark and bold</p>
+            </div>
+            
+            <div class="roast-levels-grid">
+                <!-- Light Roast -->
+                <div class="roast-card light-roast">
+                    <div class="roast-header">
+                        <div class="roast-color-sample light-sample"></div>
+                        <h4>Light Roast</h4>
+                        <span class="roast-temp">205°C</span>
+                    </div>
+                    <div class="roast-content">
+                        <p>
+                            Known as New England Roast, this stage occurs mid first crack when coffee develops its true aroma and becomes drinkable. Lightly roasted to preserve the bean's original characteristics, this level is ideal for cupping, allowing the coffee's origin flavours to shine through without roast interference.
+                        </p>
+                        <ul class="roast-details">
+                            <li><i class="fas fa-lemon"></i> <strong>Flavour:</strong> Bright, acidic, fruity</li>
+                            <li><i class="fas fa-coffee"></i> <strong>Caffeine:</strong> Highest content</li>
+                            <li><i class="fas fa-leaf"></i> <strong>Body:</strong> Light, tea-like</li>
+                            <li><i class="fas fa-fire"></i> <strong>First Crack:</strong> Just completed</li>
+                        </ul>
+                        <div class="roast-examples">
+                            <span class="example-tag">Cinnamon Roast</span>
+                            <span class="example-tag">New England Roast</span>
+                            <span class="example-tag">Half City</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Medium Roast -->
+                <div class="roast-card medium-roast">
+                    <div class="roast-header">
+                        <div class="roast-color-sample medium-sample"></div>
+                        <h4>Medium Roast</h4>
+                        <span class="roast-temp">210°C - 221°C</span>
+                    </div>
+                    <div class="roast-content">
+                        <p>
+                            Full Medium Roast follows first crack completion, featuring minimal oil and balanced origin-to-roast flavours. This popular level offers ideal harmony between acidity and body, making it our recommended choice for most coffees.
+                        </p>
+                        <ul class="roast-details">
+                            <li><i class="fas fa-apple-alt"></i> <strong>Flavour:</strong> Balanced, sweet, nutty</li>
+                            <li><i class="fas fa-coffee"></i> <strong>Caffeine:</strong> Medium content</li>
+                            <li><i class="fas fa-weight"></i> <strong>Body:</strong> Medium, rounded</li>
+                            <li><i class="fas fa-fire"></i> <strong>Development:</strong> Between cracks</li>
+                        </ul>
+                        <div class="roast-examples">
+                            <span class="example-tag">American Roast</span>
+                            <span class="example-tag">City Roast</span>
+                            <span class="example-tag">Breakfast Roast</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Dark Roast -->
+                <div class="roast-card dark-roast">
+                    <div class="roast-header">
+                        <div class="roast-color-sample dark-sample"></div>
+                        <h4>Dark Roast</h4>
+                        <span class="roast-temp">221°C - 227°C</span>
+                    </div>
+                    <div class="roast-content">
+                        <p>
+                           Dark Roast reaches mid second crack with oily beans and pronounced smoke. Roast flavours dominate, reducing acidity for a bold, smoky profile—the darkest we typically recommend while preserving some coffee integrity.
+                        </p>
+                        <ul class="roast-details">
+                            <li><i class="fas fa-smoke"></i> <strong>Flavour:</strong> Bold, smoky, bitter</li>
+                            <li><i class="fas fa-coffee"></i> <strong>Caffeine:</strong> Lowest content</li>
+                            <li><i class="fas fa-weight"></i> <strong>Body:</strong> Heavy, syrupy</li>
+                            <li><i class="fas fa-fire"></i> <strong>Second Crack:</strong> Fully developed</li>
+                        </ul>
+                        <div class="roast-examples">
+                            <span class="example-tag">French Roast</span>
+                            <span class="example-tag">Italian Roast</span>
+                            <span class="example-tag">Espresso Roast</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Roast Comparison Visual -->
+            <div class="roast-comparison">
+                <div class="comparison-header">
+                    <h4>Roast Spectrum</h4>
+                    <p>Visual guide to roast development</p>
+                </div>
+                <div class="spectrum-visual">
+                    <div class="spectrum-bar">
+                        <div class="spectrum-segment light" style="width: 25%">
+                            <span>Light</span>
+                        </div>
+                        <div class="spectrum-segment medium-light" style="width: 20%">
+                            <span>Medium-Light</span>
+                        </div>
+                        <div class="spectrum-segment medium" style="width: 20%">
+                            <span>Medium</span>
+                        </div>
+                        <div class="spectrum-segment medium-dark" style="width: 20%">
+                            <span>Medium-Dark</span>
+                        </div>
+                        <div class="spectrum-segment dark" style="width: 15%">
+                            <span>Dark</span>
+                        </div>
+                    </div>
+                    <div class="spectrum-marker">
+                        <div class="marker-point" style="left: 25%">
+                            <div class="marker-dot"></div>
+                            <span class="marker-label">First Crack</span>
+                        </div>
+                        <div class="marker-point" style="left: 85%">
+                            <div class="marker-dot"></div>
+                            <span class="marker-label">Second Crack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Drum Roaster Anatomy Section -->
+        <section class="roastery-section roaster-anatomy-section">
+            <div class="section-header">
+                <h3>Anatomy of a Drum Roaster</h3>
+                <p>Understanding the machinery behind perfect roasts</p>
+            </div>
+            
+            <div class="anatomy-container">
+                <!-- Diagram Container -->
+                <div class="roaster-diagram">
+                    <img src="assets/anatomy.jpg" alt="Anatomy of a drum coffee roaster" class="diagram-image">
+                    
+                    <!-- Interactive Labels to Show -->
+                    <div class="diagram-label" style="top: 10%; left: 70%;">
+                        <div class="label-marker"></div>
+                        <div class="label-text">
+                            <strong>CHIMNEY</strong>
+                            <span>Smoke & chaff exit</span>
+                        </div>
+                    </div>
+                    
+                    <div class="diagram-label" style="top: 20%; left: 35%;">
+                        <div class="label-marker"></div>
+                        <div class="label-text">
+                            <strong>HOT AIR FLOW</strong>
+                            <span>Heats rotating drum</span>
+                        </div>
+                    </div>
+                    
+                    <div class="diagram-label" style="top: 45%; left: 85%;">
+                        <div class="label-marker"></div>
+                        <div class="label-text">
+                            <strong>COOLING TRAY</strong>
+                            <span>Rapid bean cooling</span>
+                        </div>
+                    </div>
+                    
+                    <div class="diagram-label" style="top: 40%; left: 20%;">
+                        <div class="label-marker"></div>
+                        <div class="label-text">
+                            <strong>ROTATING DRUM</strong>
+                            <span>Even heat distribution</span>
+                        </div>
+                    </div>
+                    
+                    <div class="diagram-label" style="top: 45%; left: 60%;">
+                        <div class="label-marker"></div>
+                        <div class="label-text">
+                            <strong>BURNER</strong>
+                            <span>Heat source</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Roaster Components List -->
+                <div class="components-list">
+                    <h4>Key Components Explained</h4>
+                    <div class="component-item">
+                        <div class="component-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="component-details">
+                            <h5>Burner & Heating System</h5>
+                            <p>Provides precise heat control, typically using gas or electric elements reaching 240°C+</p>
+                        </div>
+                    </div>
+                    
+                    <div class="component-item">
+                        <div class="component-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <div class="component-details">
+                            <h5>Rotating Drum</h5>
+                            <p>Rotates beans for even roasting, typically at 40-60 RPM, with perforations for airflow</p>
+                        </div>
+                    </div>
+                    
+                    <div class="component-item">
+                        <div class="component-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <div class="component-details">
+                            <h5>Airflow System</h5>
+                            <p>Controls hot air circulation and removes chaff (silver skin) during roasting</p>
+                        </div>
+                    </div>
+                    
+                    <div class="component-item">
+                        <div class="component-icon">
+                            <i class="fas fa-thermometer-half"></i>
+                        </div>
+                        <div class="component-details">
+                            <h5>Probes & Sensors</h5>
+                            <p>Monitor bean temperature, drum temperature, and roast time for precision</p>
+                        </div>
+                    </div>
+                    
+                    <div class="component-item">
+                        <div class="component-icon">
+                            <i class="fas fa-fan"></i>
+                        </div>
+                        <div class="component-details">
+                            <h5>Cooling Tray</h5>
+                            <p>Rapidly cools beans after roasting to stop the cooking process immediately</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Roaster Types -->
+            <div class="roaster-types">
+                <h4>Types of Coffee Roasters</h4>
+                <div class="types-grid">
+                    <div class="type-card">
+                        <div class="type-icon">
+                            <i class="fas fa-drum"></i>
+                        </div>
+                        <h5>Drum Roaster</h5>
+                        <p>Traditional method using a rotating drum for even, consistent roasts</p>
+                    </div>
+                    
+                    <div class="type-card">
+                        <div class="type-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <h5>Fluid Bed Roaster</h5>
+                        <p>Uses hot air to suspend and roast beans (like a popcorn popper)</p>
+                    </div>
+                    
+                    <div class="type-card">
+                        <div class="type-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h5>Commercial Roaster</h5>
+                        <p>Large-scale roasters handling 1kg to 60kg batches for wholesale</p>
+                    </div>
+                    
+                    <div class="type-card">
+                        <div class="type-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h5>Home Roaster</h5>
+                        <p>Small batch roasters for enthusiasts (100g-1kg capacity)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="roastery-script.js"></script>
+</body>
+</html>

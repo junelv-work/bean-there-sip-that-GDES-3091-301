@@ -1,0 +1,656 @@
+/* = ROASTERY PAGE STYLES = */
+
+/* Roastery Section */
+.roastery-hero {
+    position: relative;
+    height: 70vh;
+    min-height: 500px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.roastery-hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/roastery.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.roastery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(60, 40, 30, 0.8), rgba(40, 25, 15, 0.6));
+}
+
+.roastery-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+.roastery-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.roastery-subtitle {
+    font-size: 1.3rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Main Container */
+.roastery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.roastery-section {
+    margin: 4rem 0;
+    padding: 3rem 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.roastery-section:last-child {
+    border-bottom: none;
+}
+
+/* Introduction Section */
+.intro-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 4rem;
+}
+
+.section-intro h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #3E2723;
+    margin-bottom: 1.5rem;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #5D4037;
+    margin-bottom: 2rem;
+}
+
+.roasting-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.stat {
+    text-align: center;
+    padding: 1.5rem;
+    background: #FFF8F0;
+    border-radius: 12px;
+    min-width: 150px;
+}
+
+.stat-number {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #8D6E63;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #795548;
+    font-weight: 500;
+}
+
+/* Process Visualization */
+.process-visual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.process-image img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.step:hover {
+    transform: translateX(10px);
+}
+
+.step-number {
+    background: #8D6E63;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.step-content h4 {
+    color: #3E2723;
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.step-content p {
+    color: #6D4C41;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Roast Levels Section */
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-header h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #3E2723;
+    margin-bottom: 0.5rem;
+}
+
+.section-header p {
+    color: #6D4C41;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.roast-levels-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.roast-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.roast-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.roast-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.roast-color-sample {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.light-sample {
+    background: linear-gradient(135deg, #D7CCC8, #BCAAA4);
+    border: 3px solid #A1887F;
+}
+
+.medium-sample {
+    background: linear-gradient(135deg, #8D6E63, #6D4C41);
+    border: 3px solid #5D4037;
+}
+
+.dark-sample {
+    background: linear-gradient(135deg, #5D4037, #3E2723);
+    border: 3px solid #2E1B17;
+}
+
+.roast-header h4 {
+    font-size: 1.5rem;
+    color: #3E2723;
+    margin-bottom: 0.5rem;
+}
+
+.roast-temp {
+    color: #8D6E63;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.roast-content {
+    padding: 1.5rem;
+}
+
+.roast-content p {
+    color: #5D4037;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.roast-details {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.roast-details li {
+    padding: 0.5rem 0;
+    color: #6D4C41;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.roast-details i {
+    color: #8D6E63;
+    width: 20px;
+}
+
+.roast-details strong {
+    color: #3E2723;
+}
+
+.roast-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.example-tag {
+    background: #F5F5F5;
+    color: #5D4037;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* Roast Comparison */
+.roast-comparison {
+    background: #FFF8F0;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 3rem;
+}
+
+.comparison-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.comparison-header h4 {
+    color: #3E2723;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.comparison-header p {
+    color: #6D4C41;
+}
+
+.spectrum-visual {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.spectrum-bar {
+    display: flex;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.spectrum-segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.spectrum-segment.light { background: #D7CCC8; }
+.spectrum-segment.medium-light { background: #A1887F; }
+.spectrum-segment.medium { background: #8D6E63; }
+.spectrum-segment.medium-dark { background: #6D4C41; }
+.spectrum-segment.dark { background: #3E2723; }
+
+.spectrum-marker {
+    position: relative;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.marker-point {
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.marker-dot {
+    width: 16px;
+    height: 16px;
+    background: #FF5722;
+    border-radius: 50%;
+    margin: 0 auto 5px;
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px #FF5722;
+}
+
+.marker-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #FF5722;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Roaster Anatomy Section */
+.anatomy-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.roaster-diagram {
+    position: relative;
+    background: #F5F5F5;
+    border-radius: 12px;
+    padding: 2rem;
+    min-height: 500px;
+}
+
+.diagram-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.diagram-label {
+    position: absolute;
+    cursor: help;
+    transition: transform 0.3s ease;
+}
+
+.diagram-label:hover {
+    transform: scale(1.05);
+}
+
+.label-marker {
+    width: 20px;
+    height: 20px;
+    background: #FF5722;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px #FF5722;
+    margin-bottom: 5px;
+}
+
+.label-text {
+    background: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+    text-align: center;
+}
+
+.label-text strong {
+    display: block;
+    color: #3E2723;
+    font-size: 0.9rem;
+}
+
+.label-text span {
+    display: block;
+    color: #6D4C41;
+    font-size: 0.8rem;
+    margin-top: 2px;
+}
+
+.components-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.components-list h4 {
+    color: #3E2723;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.component-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.component-item:hover {
+    transform: translateX(5px);
+}
+
+.component-icon {
+    background: #8D6E63;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.component-details h5 {
+    color: #3E2723;
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.component-details p {
+    color: #6D4C41;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Roaster Types */
+.roaster-types {
+    margin-top: 4rem;
+}
+
+.roaster-types h4 {
+    text-align: center;
+    color: #3E2723;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.types-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.type-card {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.type-card:hover {
+    transform: translateY(-5px);
+}
+
+.type-icon {
+    font-size: 2.5rem;
+    color: #8D6E63;
+    margin-bottom: 1rem;
+}
+
+.type-card h5 {
+    color: #3E2723;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.type-card p {
+    color: #6D4C41;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: #3E2723;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background: #5D4037;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .roast-levels-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .anatomy-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .roastery-title {
+        font-size: 2.5rem;
+    }
+    
+    .roastery-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .section-intro h3,
+    .section-header h3 {
+        font-size: 2rem;
+    }
+    
+    .process-visual {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .roasting-stats {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .stat {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .diagram-label {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 480px) {
+    .roastery-hero {
+        height: 60vh;
+        min-height: 400px;
+    }
+    
+    .roastery-title {
+        font-size: 2rem;
+    }
+    
+    .types-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .roaster-diagram {
+        padding: 1rem;
+    }
+}

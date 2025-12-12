@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm | Bean There Sip That</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="farm-styles.css"> <!-- Farm-specific styles -->
+</head>
+<body>
+    <!-- TOP BLACK NAV BAR (SAME AS HOME) -->
+    <header class="top-nav">
+        <div class="nav-container">
+            <!-- My logo on left -->
+            <div class="logo-section">
+                <img src="assets/logo.png" alt="Bean There Sip That Logo" class="logo-img" style="height: 90px;">
+                <h1 class="site-title">Bean There Sip That</h1>
+            </div>
+            
+            <!-- Navigation links on right -->
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="farm.html" class="nav-link active">Farm</a></li>
+                    <li><a href="roastery.html" class="nav-link">Roastery</a></li>
+                    <li><a href="cafe.html" class="nav-link">Cafe</a></li>
+                    <li><a href="journey.html" class="nav-link">Journey</a></li>
+                </ul>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- FARM PAGE STUFF -->
+    <section class="farm-hero">
+        <div class="farm-hero-image">
+            <div class="farm-overlay"></div>
+        </div>
+        <div class="farm-hero-content">
+            <h2 class="farm-title">The Journey Begins at the Farm</h2>
+            <p class="farm-subtitle">Where coffee cultivation meets sustainable practices</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="farm-container">
+        <!-- Processing Methods Section -->
+        <section class="farm-section processing-section">
+            <div class="section-header">
+                <h3>Processing Methods</h3>
+                <p>How coffee cherries transform into green beans</p>
+            </div>
+            
+            <div class="methods-grid">
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h4>Natural/Dry Process</h4>
+                    <p>Coffee cherries are dried in the sun with the fruit still attached, creating fruity, complex flavours.</p>
+                    <ul class="method-details">
+                        <li><i class="fas fa-leaf"></i> Sun-dried for 3-6 weeks</li>
+                        <li><i class="fas fa-wine-glass"></i> Berry & wine-like notes</li>
+                        <li><i class="fas fa-globe-americas"></i> Common in Ethiopia, Yemen</li>
+                    </ul>
+                </div>
+                
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h4>Washed/Wet Process</h4>
+                    <p>Fruit is removed before drying, resulting in cleaner, brighter, and more acidic profiles.</p>
+                    <ul class="method-details">
+                        <li><i class="fas fa-water"></i> Fermentation & washing</li>
+                        <li><i class="fas fa-lemon"></i> Clean & bright acidity</li>
+                        <li><i class="fas fa-mountain"></i> Preferred in high altitudes</li>
+                    </ul>
+                </div>
+                
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h4>Honey Process</h4>
+                    <p>A hybrid method where some fruit mucilage remains during drying, offering balanced sweetness.</p>
+                    <ul class="method-details">
+                        <li><i class="fas fa-percentage"></i> Mucilage retained (20-100%)</li>
+                        <li><i class="fas fa-candy-cane"></i> Sweet & syrupy body</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Popular in Costa Rica</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cultivation Section -->
+        <section class="farm-section cultivation-section">
+            <div class="section-header">
+                <h3>Cultivation</h3>
+                <p>From seed to harvest - the art of growing coffee</p>
+            </div>
+            
+            <div class="cultivation-content">
+                <div class="cultivation-image">
+                    <img src="assets/farmbeans.jpg" alt="Coffee plants growing on a farm">
+                </div>
+                
+                <div class="cultivation-text">
+                    <h4>The Coffee Plant Lifecycle</h4>
+                    <p>Coffee cultivation is a patient art that takes years before the first harvest:</p>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker">1</div>
+                            <div class="timeline-content">
+                                <h5>Seed Germination</h5>
+                                <p>3-4 months in nurseries before planting</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">2</div>
+                            <div class="timeline-content">
+                                <h5>First Flowers</h5>
+                                <p>2-3 years after planting, fragrant white blossoms appear</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">3</div>
+                            <div class="timeline-content">
+                                <h5>Cherry Development</h5>
+                                <p>7 months from flower to ripe cherry</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">4</div>
+                            <div class="timeline-content">
+                                <h5>First Harvest</h5>
+                                <p>3-4 years for initial commercial harvest</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cultivation-facts">
+                        <div class="fact">
+                            <i class="fas fa-mountain"></i>
+                            <span>Altitude: 600-2,000 meters</span>
+                        </div>
+                        <div class="fact">
+                            <i class="fas fa-thermometer-half"></i>
+                            <span>Temperature: 15-24°C</span>
+                        </div>
+                        <div class="fact">
+                            <i class="fas fa-cloud-rain"></i>
+                            <span>Rainfall: 1,500-2,500 mm/year</span>
+                        </div>
+                        <div class="fact">
+                            <i class="fas fa-tree"></i>
+                            <span>Harvest: Selective picking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coffee Varieties -->
+        <section class="farm-section varieties-section">
+            <div class="section-header">
+                <h3>Common Coffee Varieties</h3>
+                <p>Different plants, distinct flavours</p>
+            </div>
+            
+            <div class="varieties-table">
+                <div class="table-row header">
+                    <div class="table-cell">Variety</div>
+                    <div class="table-cell">Origin</div>
+                    <div class="table-cell">Flavour Profile</div>
+                    <div class="table-cell">Growing Conditions</div>
+                </div>
+                
+                <div class="table-row">
+                    <div class="table-cell"><strong>Arabica</strong></div>
+                    <div class="table-cell">Central and South America; East Africa; Asia</div>
+                    <div class="table-cell">Mild, Aromatic, Fine</div>
+                    <div class="table-cell">Thrives at high altitudes with mild temperatures, steady rainfall, and good drainage</div>
+                </div>
+                
+                <div class="table-row">
+                    <div class="table-cell"><strong>Robusta</strong></div>
+                    <div class="table-cell">Central and Western Africa; parts of Southeast Asia</div>
+                    <div class="table-cell">Bitter, earthy, strong</div>
+                    <div class="table-cell">Low altitude, sun-tolerant</div>
+                </div>
+                
+                <div class="table-row">
+                    <div class="table-cell"><strong>Liberica</strong></div>
+                    <div class="table-cell">Liberia, Africa</div>
+                    <div class="table-cell">Smoky, woody, floral</div>
+                    <div class="table-cell">Hot, humid climates</div>
+                </div>
+                
+                <div class="table-row">
+                    <div class="table-cell"><strong>Excelsa</strong></div>
+                    <div class="table-cell">Southeast Asia</div>
+                    <div class="table-cell">Tart, sweet, fruity</div>
+                    <div class="table-cell">Mild climates, medium-high alt</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="farm-script.js"></script>
+</body>
+</html>
